@@ -1,1 +1,1 @@
-# Doublel.UseCases.NetCore
+# Doublel.UseCases.NetCoree
