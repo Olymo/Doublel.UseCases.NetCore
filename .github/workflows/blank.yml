@@ -1,0 +1,25 @@
+name: Build
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup .NET Core
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 3.1.101
+    - name: Install dependencies
+      run: dotnet restore
+    - name: Build
+      run: dotnet build  ./src/Doublel.UseCases.NetCore/Doublel.UseCases.NetCore.csproj --configuration Release --no-restore
+    - name: Build Doublel.UseCases.NetCore
+      uses: brandedoutcast/publish-nuget@v2.5.2
+      with:
+          PROJECT_FILE_PATH: src/Doublel.UseCases/Doublel.NetCore.UseCases.csproj
+          NUGET_KEY: ${{secrets.NUGET_API_KEY}}
