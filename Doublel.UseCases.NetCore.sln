@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30709.132
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doublel.UseCases.NetCore", "src\Doublel.UseCases.NetCore\Doublel.UseCases.NetCore.csproj", "{564A7EF6-DE74-45FA-BEA2-059D0D1E94E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doublel.UseCases.NetCore.Tests", "test\Doublel.UseCases.NetCore.Tests\Doublel.UseCases.NetCore.Tests.csproj", "{A23E7A48-3FE5-49A8-A720-52D7AB4AFE00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{564A7EF6-DE74-45FA-BEA2-059D0D1E94E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{564A7EF6-DE74-45FA-BEA2-059D0D1E94E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{564A7EF6-DE74-45FA-BEA2-059D0D1E94E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{564A7EF6-DE74-45FA-BEA2-059D0D1E94E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A23E7A48-3FE5-49A8-A720-52D7AB4AFE00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A23E7A48-3FE5-49A8-A720-52D7AB4AFE00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A23E7A48-3FE5-49A8-A720-52D7AB4AFE00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A23E7A48-3FE5-49A8-A720-52D7AB4AFE00}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {993A2DB5-C4E2-4D37-BBC3-E140F1119E19}
+	EndGlobalSection
+EndGlobal

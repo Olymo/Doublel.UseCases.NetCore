@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>Doublel.UseCases.NetCore</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Luka Lukić</Authors>
+    <Company>Olymo</Company>
+    <Description>
+      NetCore utility bundle for Doublel.UseCases library.
+    </Description>
+    <RepositoryUrl>https://github.com/Olymo/Doublel.UseCases.NetCore</RepositoryUrl>
+    <IsPackable>true</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Doublel.ReflexionExtensions" Version="1.0.2" />
+    <PackageReference Include="Doublel.UseCases" Version="0.0.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.1" />
+  </ItemGroup>
+
+</Project>
