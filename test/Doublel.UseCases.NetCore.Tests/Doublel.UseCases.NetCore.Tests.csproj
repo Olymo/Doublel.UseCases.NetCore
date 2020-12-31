@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Doublel.UseCases.DependencyInjection\Doublel.UseCases.NetCore.csproj" />
+    <ProjectReference Include="..\..\src\Doublel.UseCases.NetCore\Doublel.UseCases.NetCore.csproj" />
     <PackageReference Include="FluentAssertions" Version="5.10.3" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.6.1" />
     <PackageReference Include="Moq" Version="4.15.2" />
