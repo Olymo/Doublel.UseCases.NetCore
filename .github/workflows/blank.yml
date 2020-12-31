@@ -21,5 +21,5 @@ jobs:
     - name: Build Doublel.UseCases.NetCore
       uses: brandedoutcast/publish-nuget@v2.5.2
       with:
-          PROJECT_FILE_PATH: src/Doublel.UseCases/Doublel.NetCore.UseCases.csproj
+          PROJECT_FILE_PATH: src/Doublel.UseCases.NetCore/Doublel.UseCases.NetCore.csproj
           NUGET_KEY: ${{secrets.NUGET_API_KEY}}
