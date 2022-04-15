@@ -12,10 +12,8 @@ namespace Doublel.UseCases.NetCore.Tests
         {
         }
 
-        public override int Id => 1;
+        public override string Id => "Test name";
 
         public override string Description => "Test description.";
-
-        public override string Name => "Test name";
     }
 }
