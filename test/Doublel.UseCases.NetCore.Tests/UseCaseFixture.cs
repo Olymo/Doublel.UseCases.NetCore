@@ -15,7 +15,7 @@ namespace Doublel.UseCases.NetCore.Tests
             services.AddSingleton(new Mock<IUseCaseLogRepository>().Object);
             var actor = new Mock<IApplicationActor>();
 
-            actor.SetupGet(x => x.AllowedUseCaseIds).Returns(new List<int> { 1, 2, 3, 4, 5 });
+            actor.SetupGet(x => x.AllowedUseCases).Returns(new List<string> { "Test name", "Test name 1" });
             actor.SetupGet(x => x.Identifier).Returns(1);
             actor.SetupGet(x => x.Identity).Returns("test");
 
