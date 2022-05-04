@@ -25,7 +25,6 @@ namespace Doublel.UseCases.NetCore
                 services.AddClassesAsImplementedInterface(assmebly, typeof(IValidator<>), ServiceLifetime.Transient);
                 services.AddClassesAsImplementedInterface(assmebly, typeof(IUseCaseSubscriber<,,>), ServiceLifetime.Transient);
                 services.AddClassesAsImplementedInterface(assmebly, typeof(IUseCaseHandler<,,>), ServiceLifetime.Transient);
-                services.AddClassesAsImplementedInterface(assmebly, typeof(IUseCaseSubscriber<,,>), ServiceLifetime.Transient);
             }
         }
 
