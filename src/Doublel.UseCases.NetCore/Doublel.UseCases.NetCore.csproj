@@ -15,7 +15,7 @@
 
   <ItemGroup>
     <PackageReference Include="Doublel.ReflexionExtensions" Version="1.0.2" />
-    <PackageReference Include="Doublel.UseCases" Version="2.0.0" />
+    <PackageReference Include="Doublel.UseCases" Version="2.0.1" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.1" />
   </ItemGroup>
 
