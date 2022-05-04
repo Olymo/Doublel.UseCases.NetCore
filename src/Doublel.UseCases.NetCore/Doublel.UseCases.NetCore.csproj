@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackageId>Doublel.UseCases.NetCore</PackageId>
-    <Version>2.0.0</Version>
+    <Version>2.0.1</Version>
     <Authors>Luka Lukić</Authors>
     <Company>Olymo</Company>
     <Description>
@@ -15,7 +15,7 @@
 
   <ItemGroup>
     <PackageReference Include="Doublel.ReflexionExtensions" Version="1.0.2" />
-    <PackageReference Include="Doublel.UseCases" Version="2.0.1" />
+    <PackageReference Include="Doublel.UseCases" Version="2.0.0" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.1" />
   </ItemGroup>
 
